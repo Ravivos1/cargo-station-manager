@@ -40,24 +40,15 @@ A command-line Python app for managing the cargo of a space station. You can add
 
 ## Running
 
-The code imports some modules as `finalProject.<module>` and others as `<module>`. That means the project folder and the folder above it both need to be on the Python path.
-
-**In PyCharm:** open the parent folder as the project and run `main.py`. PyCharm puts both folders on the path for you.
-
-**From a terminal:** run these from the folder that contains `finalProject`.
-
-Windows (PowerShell):
-
-```powershell
-$env:PYTHONPATH = "$PWD;$PWD\finalProject"
-python finalProject\main.py
-```
-
-macOS / Linux:
+Run `main.py` from the project folder:
 
 ```bash
-PYTHONPATH="$PWD:$PWD/finalProject" python finalProject/main.py
+python main.py
 ```
+
+In PyCharm, open the project folder and run `main.py`.
+
+The log files and saved stations are created in the folder you run the app from.
 
 ## Menu
 
@@ -74,10 +65,9 @@ When the app starts, you can either create a new station or load one from a save
 
 ## Running the tests
 
-Set `PYTHONPATH` the same way as above, then run:
+From the project folder:
 
 ```bash
-cd finalProject
 python -m unittest test_cargo_system -v
 ```
 

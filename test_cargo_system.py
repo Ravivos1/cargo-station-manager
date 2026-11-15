@@ -4,8 +4,7 @@ import special_cargo
 import file_helper
 import unittest
 import os
-from finalProject.special_cargo import SpecialCargo
-from unittest import result
+from special_cargo import SpecialCargo
 
 class Testcreate_new_cargo(unittest.TestCase):
     def test_create_valid_cargo_item(self):

@@ -1,7 +1,7 @@
-from finalProject.cargo_item import CargoItem
-from finalProject.cargo_station import CargoStation
-from finalProject.file_helper import load_from_file, save_to_file
-from finalProject.special_cargo import SpecialCargo
+from cargo_item import CargoItem
+from cargo_station import CargoStation
+from file_helper import load_from_file, save_to_file
+from special_cargo import SpecialCargo
 
 
 def main():

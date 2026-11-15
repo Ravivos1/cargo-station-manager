@@ -1,4 +1,4 @@
-from finalProject.cargo_item import CargoItem
+from cargo_item import CargoItem
 import exception_func
 import error_action_logger
 
