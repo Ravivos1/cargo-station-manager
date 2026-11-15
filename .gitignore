@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.zip
+.idea/
+
+# runtime log files and saved stations
+Cargo_Station_Actions.txt
+Cargo_Station_Errors.txt
+*.txt
